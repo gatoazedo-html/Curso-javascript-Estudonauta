@@ -8,22 +8,22 @@ function clicar() {
         case 'vasco':
             res.innerHTML = 'Bem-vindo, vascaíno!'
             document.body.style.background = '#0D0D0D'
-            img.setAttribute('src', 'vasco.png')
+            img.setAttribute('src', 'imagens/vasco.png')
             break
         case 'flamengo':
             res.innerHTML = 'Bem-vindo, flamenguista!'
             document.body.style.background = '#C00009'
-            img.setAttribute('src', 'flamengo.png')
+            img.setAttribute('src', 'imagens/flamengo.png')
             break
         case 'botafogo':
             res.innerHTML = 'Bem-vindo, botafoguense!'
             document.body.style.background = '#0D0D0D'
-            img.setAttribute('src', 'botafogo.png')
+            img.setAttribute('src', 'imagens/botafogo.png')
             break
         case 'fluminense':
             res.innerHTML = 'Bem-vindo, fluminense!'
             document.body.style.background = '#9F022F'
-            img.setAttribute('src', 'fluminense.png')
+            img.setAttribute('src', 'imagens/fluminense.png')
             break
         default:
             window.alert('[ERRO] Time inválido, tente novamente!')
